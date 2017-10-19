@@ -21,7 +21,7 @@ Now that we explained how to [draw an owl](http://i0.kym-cdn.com/photos/images/o
     - set up headless GL testing on CI (depends on GL to be available)
   - WebGPU [prototype](https://github.com/kvark/webgpu-servo): needs overall architecture review, IPC logic rewrite, many basic improvements to fit the portability and security requirements of the Web.
     - WebAssembly compatibility investigation
-    - extra bonus for taking a peek at [rspirv](https://github.com/google/rspirv) addressing some of the issues there. We hope to eventually use Rust for shader sanitation and translation, while currently using [SPIRV-Cross](https://github.com/grovesNL/spirv_cross).
+    - extra bonus for addressing some of the [rspirv](https://github.com/google/rspirv) issues. We hope to eventually use Rust for shader sanitation and translation, while currently using [SPIRV-Cross](https://github.com/grovesNL/spirv_cross).
   - Vulkan Portability [prototype](https://github.com/kvark/portability): the beginning is there, way more needs to be done. This is supposed to be more of a mechanical task, with major concerns resolved conceptually. End goals are:
     - hook up to Ash, Vulkano, C applications of your choice
     - pass Khronos conformance test suite
