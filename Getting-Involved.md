@@ -4,7 +4,7 @@ Hello stranger! If you found gfx-rs interesting, especially the new Hardware Abs
 
   1. Make sure to have the late-ish Rust stable installed on the platform of your choice.
   2. Check out gfx-rs and type `make` in the repository root in order to ensure that everything is building. Skip this step if you are on Windows without Subsystem for Linux.
-  3. Run the hal/quad example `(cd example/hal/quad && cargo run --features <backend>)` where the `<backend>` is `vulkan`, `dx12`, or `metal`.
+  3. Run the hal/quad example `(cd examples/hal/quad && cargo run --features <backend>)` where the `<backend>` is `vulkan`, `dx12`, or `metal`.
   4. Navigate through the project code to get familiar with the style and structure.
 
 ### Big tasks
